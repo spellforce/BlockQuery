@@ -72,7 +72,7 @@ const App = () => {
         setIsMobile(getIsMobile());
       })
     );
-
+    // 可以设置定时器，获取新的data，更新数据，demo中未写
     return () => {
       window.removeEventListener("resize");
     };

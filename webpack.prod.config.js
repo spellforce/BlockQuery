@@ -25,7 +25,7 @@ module.exports = {
     chunkFilename: "dist/[name].[chunkhash:8].chunk.js", //未在entry中的，一些异步的import也要打包出来
   },
   optimization: {
-    minimize: false,
+    minimize: true,
     moduleIds: 'deterministic',  // 包含一个新模块的引用时，之前的module id不变，也就不需要重新打包
     minimizer: [ // 压缩代码
       new TerserPlugin({

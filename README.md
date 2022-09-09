@@ -8,9 +8,11 @@ yarn start
 ```
 
 # Build
-build your project
+build your project and view it on blocklet
 ```js
 yarn build
+blocklet dev install
+blocklet dev start
 ```
 
 # test
