@@ -30,6 +30,7 @@ const getIsMobile = () => {
   }
 };
 
+// 一些计算和数据，不太精确，比如BTC转doller，一些业务上的数据拿的可能不对，这个需要根据需求来
 const App = () => {
   const [data, setData] = useState();
   const [, startTransition] = useTransition();
