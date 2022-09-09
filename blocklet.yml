@@ -1,0 +1,38 @@
+name: test
+description: zx test
+group: static
+main: build
+author:
+  name: zx
+specVersion: 1.2.7
+files:
+  - blocklet.md
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z8iZmVeg6ttXXBmsgJiEkpEWnETvmxB5zDXSy
+version: 1.0.0
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+environments: []
+capabilities:
+  clusterMode: false
+  component: true
+screenshots: []
+children: []
